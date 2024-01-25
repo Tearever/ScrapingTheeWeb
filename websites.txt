@@ -1,5 +1,12 @@
+<<<<<<< HEAD
 https://www.nytimes.com/2024/01/03/arts/tetris-beat-blue-scuti.html
 https://www.nytimes.com/2024/01/22/us/california-senate-candidates-debate.html
 https://www.nytimes.com/2023/12/04/us/23andme-hack-data.html
 https://www.nytimes.com/2023/09/27/technology/personaltech/meta-quest-3-vr-headset.html
+=======
+https://www.nytimes.com/2024/01/03/arts/tetris-beat-blue-scuti.html
+https://www.nytimes.com/2024/01/22/us/california-senate-candidates-debate.html
+https://www.nytimes.com/2023/12/04/us/23andme-hack-data.html
+https://www.nytimes.com/2023/09/27/technology/personaltech/meta-quest-3-vr-headset.html
+>>>>>>> refs/remotes/origin/main
 https://www.nytimes.com/2022/12/21/technology/personaltech/how-to-use-chatgpt-ethically.html
