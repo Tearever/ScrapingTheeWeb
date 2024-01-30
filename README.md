@@ -6,3 +6,4 @@
 ```conda create --name (some_name) --file requirement.yaml```
 ### or
 ```conda env create -f requirement.yaml```
+#### this is of course assuming that you already have miniconda installed on the system
