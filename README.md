@@ -12,4 +12,4 @@
 
 ### Before jumping into how to pilot scrapy through the command prompt, I would like to introduce you to the concept of spiders. This feature is unique to scrapy and allows a considerable amount of flexibility to our web scrapping desires. Each spider has a unique name along with a set of functions. 
 
-#### If you traverse over to articleScrapper/articleScrapper/spiders/articleSpider.py you will be greeted by the spider who finished Project 1. 
+#### If you traverse over to [articleScrapper/articleScrapper/spiders/articleSpider.py](https://github.com/Tearever/ScrapingTheeWeb/blob/main/articleScrapper/articleScrapper/spiders/articleSpider.py) you will be greeted by the spider who finished Project 1. 
