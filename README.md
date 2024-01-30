@@ -1,5 +1,5 @@
 # This Project is about Collecting/Scraping News Articles
-## The package used to achieve this functionality is Scrapy (v.2.11.0). This is an open-source web crawling and web scraping framework that can be used to extract structured data from websites. 
+## The package used to achieve this functionality is [Scrapy](https://scrapy.org/) (v.2.11.0). This is an open-source web crawling and web scraping framework that can be used to extract structured data from websites. 
 ### The Three main items you need from the repo are the articleScrapper folder, requirements.yaml, and websites.txt. The remaining txt files will be produced on your local machine when we compile the code for the first time.
 #### <img src="images/Screenshot%202024-01-29%20182004.png" alt="image of the repo with elements highlighted in yellow"/>
 ### requirements.yaml is extremely important since it allows the person who downloaded the file to have the exact environment the developer built the program on top of.  
