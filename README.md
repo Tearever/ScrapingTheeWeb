@@ -24,3 +24,4 @@
 
 ## 2. Parsing the Response
 #### The parse method is called for each URL in the start_urls. It extracts relevant information from the HTML response using CSS selectors. The extracted data includes the article headline, summary, and body.
+#### <img src="images/Screenshot%202024-01-30%20194459.png" alt="image showing parse function"/>
