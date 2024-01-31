@@ -15,3 +15,5 @@
 #### If you traverse over to [articleScrapper/articleScrapper/spiders/articleSpider.py](https://github.com/Tearever/ScrapingTheeWeb/blob/main/articleScrapper/articleScrapper/spiders/articleSpider.py) you will be greeted by the spider who finished Project 1. 
 
 #### This is articleSpider. You can see his name being defined by this line ```name = "articleSpider"```. As mentioned earlier, these are user-defined and can be named beyond their functionality. 
+
+#### <img src="images/Screenshot%202024-01-30%20192246.png" alt="image of the repo with elements highlighted in yellow"/>
