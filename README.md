@@ -14,4 +14,4 @@
 
 #### If you traverse over to [articleScrapper/articleScrapper/spiders/articleSpider.py](https://github.com/Tearever/ScrapingTheeWeb/blob/main/articleScrapper/articleScrapper/spiders/articleSpider.py) you will be greeted by the spider who finished Project 1. 
 
-#### This is articleSpider. You can see his name being defined by this line ```name = "articleSpider"```. As I mentioned earlier these are unique, but they are user-defined. 
+#### This is articleSpider. You can see his name being defined by this line ```name = "articleSpider"```. As mentioned earlier, these are user-defined and can be named beyond their functionality. 
