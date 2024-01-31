@@ -28,3 +28,4 @@
 
 ## 3. Saving to Text File
 #### The save_to_text_file method is responsible for saving the extracted information to a text file. The filename is generated based on the first 10 characters of the article's headline, and the content includes the headline, summary, and the article body.
+#### <img src="images/Screenshot%202024-01-30%20195110.png" alt="image showing save_to_text_file function"/>
