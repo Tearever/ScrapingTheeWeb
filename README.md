@@ -10,6 +10,18 @@
 ```conda env create -f requirement.yaml```
 #### (This is of course assuming that you already have Miniconda installed on the system)
 
-### Before jumping into how to pilot scrapy through the command prompt, I would like to introduce you to the concept of spiders. This feature is unique to scrapy and allows a considerable amount of flexibility to our web scraping desires. Each spider has a unique name along with a set of functions. 
+#### Before jumping into how to pilot scrapy through the command prompt, I would like to introduce you to the concept of spiders. This feature is unique to scrapy and allows a considerable amount of flexibility to our web scraping desires. Each spider has a unique name along with a set of functions. 
 
 #### If you traverse over to [articleScrapper/articleScrapper/spiders/articleSpider.py](https://github.com/Tearever/ScrapingTheeWeb/blob/main/articleScrapper/articleScrapper/spiders/articleSpider.py) you will be greeted by the spider who finished Project 1. 
+
+#### This is articleSpider. You can see his name being defined by this line ```name = "articleSpider"```. As mentioned earlier, these are user-defined and can be named beyond their functionality. 
+
+## 1. Spider Configuration
+
+#### ```name = "articleSpider"``` - This is the name of the spider.
+#### ```allowed_domains = ["www.nytimes.com"]``` - It specifies the domain(s) that the spider is allowed to crawl.
+#### ```start_urls = open("websites.txt")``` - This file contains a list of URLs that the spider will start crawling.
+
+## 2. Parsing the Response
+#### The parse method is called for each URL in the start_urls. It extracts relevant information from the HTML response using CSS selectors. The extracted data includes the article headline, summary, and body.
+#### <img src="images/Screenshot%202024-01-30%20194459.png" alt="image showing parse function"/>
