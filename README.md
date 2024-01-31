@@ -16,4 +16,8 @@
 
 #### This is articleSpider. You can see his name being defined by this line ```name = "articleSpider"```. As mentioned earlier, these are user-defined and can be named beyond their functionality. 
 
-#### <img src="images/Screenshot%202024-01-30%20192246.png" alt="image of the repo with elements highlighted in yellow"/>
+### 1. Spider Configuration
+
+#### ```name = "articleSpider"``` - This is the name of the spider.
+#### ```allowed_domains = ["www.nytimes.com"]``` - It specifies the domain(s) that the spider is allowed to crawl.
+#### ```start_urls = open("websites.txt")``` - This file contains a list of URLs that the spider will start crawling.
