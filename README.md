@@ -24,7 +24,3 @@
 
 ## 2. Parsing the Response
 #### The parse method is called for each URL in the start_urls. It extracts relevant information from the HTML response using CSS selectors. The extracted data includes the article headline, summary, and body.
-#### ```def parse(self, response):```
-####    ```headline = response.css('h1[data-testid="headline"]::text').get()```
-####    ```summary = response.css('p#article-summary::text').get()```
-####    ```body = response.css('section[name="articleBody"] ::text').getall()```
