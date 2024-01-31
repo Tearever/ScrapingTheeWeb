@@ -21,5 +21,5 @@ class ArticlespiderSpider(scrapy.Spider):
             file.write(f"Summary: {summary}\n\n")
             file.write("Body:")
             for paragraph in body:
-                file.write(f"{paragraph[:200]}")
+                file.write(f"{paragraph}")
             
