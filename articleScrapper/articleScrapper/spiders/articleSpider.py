@@ -5,7 +5,6 @@ class ArticlespiderSpider(scrapy.Spider):
     name = "articleSpider"
     allowed_domains = ["www.nytimes.com"]
     start_urls = open("..\websites.txt", "r")
-    i = 0
 
     def parse(self, response):
         headline = response.css('h1[data-testid="headline"]::text').get()
