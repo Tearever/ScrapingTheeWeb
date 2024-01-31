@@ -33,4 +33,4 @@
 ## How to use:
 #### 1. Make sure to activate the conda environment made by the requirement.yaml file, ```conda activate env_name```
 #### 2. Use ```conda list``` and look for the scrapy package to double check to see if it is installed. If not you can simply use, ```pip install scrapy```.
-#### 3. Navigate over to the articleScrapper directory. You need the parent directory, so please make sure you are not in the other directory named articleScrapper.
+#### 3. Navigate over to the articleScrapper directory. You need the parent directory, so please make sure you are not in the other directory named articleScrapper. Check by using ```dir``` or ```ls```, there should be two items listed: a folder named articleSpider and scrapy.cfg
