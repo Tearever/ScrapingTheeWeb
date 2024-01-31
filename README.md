@@ -29,3 +29,8 @@
 ## 3. Saving to Text File
 #### The save_to_text_file method is responsible for saving the extracted information to a text file. The filename is generated based on the first 10 characters of the article's headline, and the content includes the headline, summary, and the article body.
 #### <img src="images/Screenshot%202024-01-30%20195110.png" alt="image showing save_to_text_file function"/>
+
+## How to use:
+#### 1. Make sure to activate the conda environment made by the requirement.yaml file, ```conda activate env_name```
+#### 2. Use ```conda list``` and look for the scrapy package to double check to see if it is installed. If not you can simply use, ```pip install scrapy```.
+#### 3. Navigate over to the articleScrapper directory. You need the parent directory, so please make sure you are not in the other directory named articleScrapper.
