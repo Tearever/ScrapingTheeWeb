@@ -21,3 +21,7 @@
 #### ```name = "articleSpider"``` - This is the name of the spider.
 #### ```allowed_domains = ["www.nytimes.com"]``` - It specifies the domain(s) that the spider is allowed to crawl.
 #### ```start_urls = open("websites.txt")``` - This file contains a list of URLs that the spider will start crawling.
+
+## 2. Parsing the Response
+
+#### The parse method is called for each URL in the start_urls. It extracts relevant information from the HTML response using CSS selectors. The extracted data includes the article headline, summary, and body.
