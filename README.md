@@ -5,7 +5,7 @@
 #### requirements.yaml is extremely important since it allows the person who downloaded the file to have the exact environment the developer built the program on top of.  
 
 #### To create a new environment from an yaml file:
-```conda create --name (some_name) --file requirement.yaml```
+```conda create --name some_name --file requirement.yaml```
 #### or
 ```conda env create -f requirement.yaml```
 #### (This is of course assuming that you already have Miniconda installed on the system)
@@ -29,7 +29,7 @@
 #### <img src="images/Screenshot%202024-01-30%20195110.png" alt="image showing save_to_text_file function"/>
 
 ## How to use:
-#### 1. Make sure to activate the conda environment made by the requirement.yaml file, ```conda activate env_name```
+#### 1. Make sure to activate the conda environment made by the requirement.yaml file, ```conda activate some_name```
 #### 2. Use ```conda list``` and look for the scrapy package to double check to see if it is installed. If not you can simply use, ```pip install scrapy```.
 #### 3. Navigate over to the articleScrapper directory. You need the parent directory, so please make sure you are not in the other directory named articleScrapper. Check by using ```dir``` or ```ls```, there should be two items listed: a folder named articleSpider and scrapy.cfg
 #### 4. If everything seems in check try using ```scrapy crawl articleSpider```. If everything is setup properly this should generate five text files with data from each article
