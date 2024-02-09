@@ -10,7 +10,7 @@
 ```conda env create -f requirement.yaml```
 #### (This is of course assuming that you already have Miniconda installed on the system)
 
-#### Before jumping into how to pilot scrapy through the command prompt, I would like to introduce you to the concept of spiders. This feature is unique to scrapy and allows a considerable amount of flexibility to our web scraping desires. Each spider has a unique name along with a set of functions. 
+#### Before jumping into how to pilot scrapy I would like to introduce you to the concept of spiders. This feature is unique to scrapy and allows a considerable amount of flexibility to our web scraping desires. Each spider has a unique name along with a set of functions. 
 
 #### If you traverse over to [articleScrapper/articleScrapper/spiders/articleSpider.py](https://github.com/Tearever/ScrapingTheeWeb/blob/main/articleScrapper/articleScrapper/spiders/articleSpider.py) you will be greeted by the spider who finished Project 1. 
 
