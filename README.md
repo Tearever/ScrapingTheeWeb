@@ -21,7 +21,7 @@
 #### ```start_urls = open("websites.txt")``` - This file contains a list of URLs that the spider will start crawling.
 
 ## 2. Parsing the Response
-#### The parse method is called for each URL in the start_urls. It extracts relevant information from the HTML response using CSS selectors. The extracted data includes the article headline, summary, and body.
+#### The parse method is called for each URL in the start_urls. It extracts relevant information from the HTML response using CSS selectors. For instance, in this image, our Spider is looking for an h1 tag that contains a data-testid that is equal to "headline". If the spider finds it, it will only take the ::text from it.
 #### <img src="images/Screenshot%202024-01-30%20194459.png" alt="image showing parse function"/>
 
 ## 3. Saving to Text File
