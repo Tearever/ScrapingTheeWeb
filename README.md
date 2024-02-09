@@ -4,7 +4,7 @@
 #### <img src="images/Screenshot%202024-01-29%20182004.png" alt="image of the repo with elements highlighted in yellow"/>
 #### requirements.yaml is extremely important since it allows the person who downloaded the file to have the exact environment the developer built the program on top of.  
 
-#### To create a new environment from an yaml file:
+## To create a new environment from an yaml file:
 ```conda create --name some_name --file requirement.yaml```
 #### or
 ```conda env create -f requirement.yaml```
