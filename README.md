@@ -34,4 +34,4 @@
 ### <img src="images/Screenshot%202024-02-10%20155601.png" alt="image of list of packages in conda env, highlighting scrapy"/>
 #### 3. Navigate over to the articleScrapper directory through command line interface (Terminal - mac, Command Prompt - Windows) . You need the parent directory, so please make sure you are not in the sub directory named articleScrapper. Check by using ```dir``` or ```ls```, there should be two items listed: a folder named articleSpider and scrapy.cfg
 #### <img src="images/Screenshot%202024-02-10%20154936.png" alt="image of correct directoy in command line interface"/>
-#### 4. If everything seems in check try using ```scrapy crawl articleSpider```. If everything is setup properly this should generate five text files with data from each article
+#### 4. If everything seems in check try using ```scrapy crawl articleSpider```. If everything is setup properly this should generate five text files with data from each article. The text files can be found in the CS325_WebSrap folder.
