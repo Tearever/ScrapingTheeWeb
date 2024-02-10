@@ -25,8 +25,8 @@
 #### <img src="images/Screenshot%202024-01-30%20194459.png" alt="image showing parse function"/>
 
 ## 3. Saving to Text File
-#### The save_to_text_file method is responsible for saving the extracted information to a text file. The filename is generated based on the first 10 characters of the article's headline, and the content includes the headline, summary, and the article body.
-#### <img src="images/Screenshot%202024-01-30%20195110.png" alt="image showing save_to_text_file function"/>
+#### The save_to_text_file method is responsible for saving the extracted information to a text file such as the headline, summary, and the body paragraph.
+#### <img src="images/Screenshot%202024-02-10%20162501.png" alt="image showing save_to_text_file function"/>
 
 ## How to use:
 #### 1. Make sure to activate the conda environment made by the requirement.yaml file, ```conda activate some_name```
