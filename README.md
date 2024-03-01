@@ -11,11 +11,6 @@
     - [SOLID Principle](#solid-principle)
     - [Class Diagram](#class-diagram)
     - [Usage](#usage)
-    - [Contributing](#contributing)
-    - [License](#license)
-    - [Contact Information](#contact-information)
-
-
 
 ## Project Description
 
