@@ -100,8 +100,8 @@ This project adheres to the Single Responsibility Principle (SOLID).
 - There is no direct interaction between DataProcessing and FileOperations. They operate independently, and their functionalities do not directly depend on each other.
 
 ## In summary:
--Main has an association relationship with both DataProcessing and FileOperations.
--There is no direct relationship between DataProcessing and FileOperations.
+- Main has an association relationship with both DataProcessing and FileOperations.
+- There is no direct relationship between DataProcessing and FileOperations.
 
 ## Usage
 
