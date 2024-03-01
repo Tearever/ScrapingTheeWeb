@@ -15,7 +15,7 @@ Short description of your project.
 
 ## Introduction
 
-Welcome to [Project Title]! This project does [provide a brief overview of the project's purpose and key features].
+Welcome to Project 2! This project does breaks down project-1 code into logically two different files/modules.
 
 ## Folder Structure
 
