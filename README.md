@@ -84,20 +84,20 @@ This project adheres to the Single Responsibility Principle (SOLID).
 ## Class Diagram
 <img src="images/Screenshot 2024-03-01 151943.png" alt="image of class diagram"/>
 
-- ## Main and DataProcessing:
+## Main and DataProcessing:
 - Main imports and uses the process_article function from DataProcessing.
 - Relationship: Association
 
-- ## Main and FileOperations:
+## Main and FileOperations:
 - Main imports and uses the save_to_file and create_directory functions from FileOperations.
 - Relationship: Association
 
-- ## DataProcessing and FileOperations:
-= There is no direct interaction between DataProcessing and FileOperations in the provided code. They operate independently, and their functionalities do not directly depend on each other.
+ ## DataProcessing and FileOperations:
+- There is no direct interaction between DataProcessing and FileOperations in the provided code. They operate independently, and their functionalities do not directly depend on each other.
 
-- ##In summary:
-Main has an association relationship with both DataProcessing and FileOperations.
-There is no direct relationship between DataProcessing and FileOperations.
+##In summary:
+-Main has an association relationship with both DataProcessing and FileOperations.
+-There is no direct relationship between DataProcessing and FileOperations.
 
 ## Usage
 
