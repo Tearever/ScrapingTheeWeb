@@ -29,6 +29,7 @@ The `data_processing` module is responsible for processing article data from a g
 - **Functions/Classes:**
   - `process_article(url: str) -> Tuple[str, str]`: Processes the article and returns the headline and body.
 
+...
 
 ### `module_2/file_operations.py`
 
@@ -38,6 +39,7 @@ The `file_operations` module handles file-related operations.
   - `save_to_file(output_directory: str, filename: str, content: str) -> None`: Saves content to a file.
   - `create_directory(directory: str) -> None`: Creates a directory if it doesn't exist.
 
+...
 
 ## SOLID Principle
 
