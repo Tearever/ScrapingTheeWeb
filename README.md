@@ -9,9 +9,6 @@ Short description of your project.
 3. [Modules](#modules)
 4. [SOLID Principle](#solid-principle)
 5. [Class Diagram](#class-diagram)
-6. [Usage](#usage)
-7. [Contributing](#contributing)
-8. [License](#license)
 
 ## Introduction
 
@@ -56,16 +53,7 @@ This project adheres to the Single Responsibility Principle (SOLID).
 
 ## Class Diagram
 
-View the UML class diagram for this project [here](link_to_your_class_diagram_image).
 
-## Usage
 
-To use this project, follow these steps:
-
-1. [Provide step-by-step instructions on how to set up and run the project.]
-2. [Include any dependencies or prerequisites.]
-3. [Provide examples or sample usage.]
-
-...
 
 
