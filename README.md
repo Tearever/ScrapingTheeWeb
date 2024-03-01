@@ -3,7 +3,7 @@
 ## Table of Contents
 
 - [Project-2: Data Processing and File Operations](#project-2-data-processing-and-file-operations)
-    - [Description](#description)
+    - [Project Description](#project-description)
     - [Folder Structure](#folder-structure)
     - [Modules](#modules)
         - [module_1/data_processing.py](#module_1data_processingpy)
