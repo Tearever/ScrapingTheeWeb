@@ -1,6 +1,6 @@
 # Project 2
 
-Short description of your project.
+Breaks Down Project 1 code into logically two different files/modules.
 
 ## Table of Contents
 
