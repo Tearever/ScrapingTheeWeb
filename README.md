@@ -1,37 +1,70 @@
-# This Project is about Collecting/Scraping News Articles
-## The package used to achieve this functionality is [Scrapy](https://scrapy.org/) (v.2.11.0). This is an open-source web crawling and web scraping framework that can be used to extract structured data from websites. 
-#### The Three main items you need from the repo are the articleScrapper folder, requirements.yaml, and websites.txt. The remaining txt files will be produced on your local machine when we compile the code for the first time.
-#### <img src="images/Screenshot%202024-01-29%20182004.png" alt="image of the repo with elements highlighted in yellow"/>
-#### requirements.yaml is extremely important since it allows the person who downloaded the file to have the exact environment the developer built the program on top of.  
+# Project 2
 
-## To create a new environment from an yaml file:
-```conda create --name some_name --file requirement.yaml```
-#### or
-```conda env create -f requirement.yaml```
-#### (This is of course assuming that you already have Miniconda installed on the system)
+Short description of your project.
 
-#### Before jumping into how to pilot scrapy I would like to introduce you to the concept of spiders. This feature is unique to scrapy and allows a considerable amount of flexibility to our web scraping desires. Each spider has a unique name along with a set of functions. 
+## Table of Contents
 
-#### If you traverse over to [articleScrapper/articleScrapper/spiders/articleSpider.py](https://github.com/Tearever/ScrapingTheeWeb/blob/main/articleScrapper/articleScrapper/spiders/articleSpider.py) you will be greeted by the spider who finished Project 1. 
+1. [Introduction](#introduction)
+2. [Folder Structure](#folder-structure)
+3. [Modules](#modules)
+4. [SOLID Principle](#solid-principle)
+5. [Class Diagram](#class-diagram)
+6. [Usage](#usage)
+7. [Contributing](#contributing)
+8. [License](#license)
 
-## 1. Spider Configuration
+## Introduction
 
-#### ```name = "articleSpider"``` - This is the name of the spider.
-#### ```allowed_domains = ["www.nytimes.com"]``` - It specifies the domain(s) that the spider is allowed to crawl.
-#### ```start_urls = open("websites.txt")``` - This file contains a list of URLs that the spider will start crawling.
+Welcome to [Project Title]! This project does [provide a brief overview of the project's purpose and key features].
 
-## 2. Parsing the Response
-#### The parse method is called for each URL in the start_urls. It extracts relevant information from the HTML response using CSS selectors. For instance, in this image, our Spider is looking for an h1 tag that contains a data-testid that is equal to "headline". If the spider finds it, it will only take the ::text from it. The content is then stored in a variable named headline. 
-#### <img src="images/Screenshot%202024-01-30%20194459.png" alt="image showing parse function"/>
+## Folder Structure
 
-## 3. Saving to Text File
-#### The save_to_text_file method is responsible for saving the extracted information to a text file such as the headline, summary, and the body paragraph.
-#### <img src="images/Screenshot%202024-02-10%20162501.png" alt="image showing save_to_text_file function"/>
+This project is organized with the following folder structure:
 
-## How to use:
-#### 1. Make sure to activate the conda environment made by the requirement.yaml file, ```conda activate some_name```
-#### 2. Use ```conda list``` and look for the scrapy package to double check to see if it is installed. If not you can simply use, ```pip install scrapy```.
-### <img src="images/Screenshot%202024-02-10%20155601.png" alt="image of list of packages in conda env, highlighting scrapy"/>
-#### 3. Navigate over to the articleScrapper directory through command line interface (Terminal - mac, Command Prompt - Windows) . You need the parent directory, so please make sure you are not in the sub directory named articleScrapper. Check by using ```dir``` or ```ls```, there should be two items listed: a folder named articleSpider and scrapy.cfg
-#### <img src="images/Screenshot%202024-02-10%20154936.png" alt="image of correct directoy in command line interface"/>
-#### 4. If everything seems in check try using ```scrapy crawl articleSpider```. If everything is setup properly this should generate five text files with data from each article. Files will be placed in the parent directory of articleScrapper ```filename = f"..\{headline[:10]}.txt"```
+
+## Modules
+
+### `module_1/data_processing.py`
+
+The `data_processing` module is responsible for processing article data from a given URL.
+
+- **Functions/Classes:**
+  - `process_article(url: str) -> Tuple[str, str]`: Processes the article and returns the headline and body.
+
+...
+
+### `module_2/file_operations.py`
+
+The `file_operations` module handles file-related operations.
+
+- **Functions/Classes:**
+  - `save_to_file(output_directory: str, filename: str, content: str) -> None`: Saves content to a file.
+  - `create_directory(directory: str) -> None`: Creates a directory if it doesn't exist.
+
+...
+
+## SOLID Principle
+
+This project adheres to the Single Responsibility Principle (SOLID).
+
+- **SOLID Principle:**
+  - Single Responsibility Principle (SRP)
+
+- **Benefits:**
+  - Enhances maintainability by ensuring that each module has only one reason to change.
+
+## Class Diagram
+
+View the UML class diagram for this project [here](link_to_your_class_diagram_image).
+
+## Usage
+
+To use this project, follow these steps:
+
+1. [Provide step-by-step instructions on how to set up and run the project.]
+2. [Include any dependencies or prerequisites.]
+3. [Provide examples or sample usage.]
+
+...
+
+
