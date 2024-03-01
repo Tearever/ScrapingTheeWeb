@@ -2,21 +2,22 @@
 
 ## Table of Contents
 
-1. [Project-2: Data Processing and File Operations](#project-2-data-processing-and-file-operations)
-    1.1 [Description](#description)
-    1.2 [Folder Structure](#folder-structure)
-    1.3 [Modules](#modules)
-        1.3.1 [module_1/data_processing.py](#module_1data_processingpy)
-        1.3.2 [module_2/file_operations.py](#module_2file_operationspy)
-    1.4 [SOLID Principle](#solid-principle)
-    1.5 [Class Diagram](#class-diagram)
-    1.6 [Usage](#usage)
-    1.7 [Contributing](#contributing)
-    1.8 [License](#license)
-    1.9 [Contact Information](#contact-information)
+- [Project-2: Data Processing and File Operations](#project-2-data-processing-and-file-operations)
+    - [Description](#description)
+    - [Folder Structure](#folder-structure)
+    - [Modules](#modules)
+        - [module_1/data_processing.py](#module_1data_processingpy)
+        - [module_2/file_operations.py](#module_2file_operationspy)
+    - [SOLID Principle](#solid-principle)
+    - [Class Diagram](#class-diagram)
+    - [Usage](#usage)
+    - [Contributing](#contributing)
+    - [License](#license)
+    - [Contact Information](#contact-information)
 
 
-## Description
+
+## Project Description
 
 Project-2 aims to refactor and enhance the functionality of Project-1 by breaking down the code into two logical modules, implementing a folder structure, and incorporating SOLID principles. The project involves the following tasks:
 
@@ -87,15 +88,8 @@ This project adheres to the Single Responsibility Principle (SOLID).
 
 ## Class Diagram
 
-View the UML class diagram for this project [here](link_to_your_class_diagram_image).
 
 ## Usage
-
-To use this project, follow these steps:
-
-1. Clone the repository.
-2. Navigate to the project root.
-3. Run the main program: `python3 run.py URL/File/argument`
 
 ...
 
