@@ -10,8 +10,8 @@
         - [module_2/file_operations.py](#module_2file_operationspy)
     - [SOLID Principle](#solid-principle)
     - [Class Diagram](#class-diagram)
-        - [Main and DataProcessing](#Main-and-DataProcessing)
-        - [Main and FileOperations](#Main-and-FileOperations)
+        - [run and DataProcessing](#run-and-DataProcessing)
+        - [run and FileOperations](#run-and-FileOperations)
         - [DataProcessing and FileOperations](#DataProcessing-and-FileOperations)
         - [In Summary](#In-Summary) 
     - [Usage](#usage)
@@ -88,19 +88,19 @@ This project adheres to the Single Responsibility Principle (SOLID).
 ## Class Diagram
 <img src="images/Screenshot 2024-03-01 151943.png" alt="image of class diagram"/>
 
-## Main and DataProcessing:
-- Main imports and uses the process_article function from DataProcessing.
+## run and DataProcessing:
+- run imports and uses the process_article function from DataProcessing.
 - Relationship: Association
 
-## Main and FileOperations:
-- Main imports and uses the save_to_file and create_directory functions from FileOperations.
+## run and FileOperations:
+- run imports and uses the save_to_file and create_directory functions from FileOperations.
 - Relationship: Association
 
  ## DataProcessing and FileOperations:
 - There is no direct interaction between DataProcessing and FileOperations. They operate independently, and their functionalities do not directly depend on each other.
 
 ## In Summary:
-- Main has an association relationship with both DataProcessing and FileOperations.
+- run has an association relationship with both DataProcessing and FileOperations.
 - There is no direct relationship between DataProcessing and FileOperations.
 
 ## Usage
