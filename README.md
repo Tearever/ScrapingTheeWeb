@@ -51,6 +51,8 @@ This project adheres to the Single Responsibility Principle (SOLID).
 - **Benefits:**
   - Enhances maintainability by ensuring that each module has only one reason to change.
 
+ ...
+
 ## Class Diagram
 
 
