@@ -86,7 +86,7 @@ This project adheres to the Single Responsibility Principle (SOLID).
   - Enhances maintainability by ensuring that each module has only one reason to change.
 
 ## Class Diagram
-<img src="images/Screenshot 2024-03-01 151943.png" alt="image of class diagram"/>
+<img src="images/class_diagram.png" alt="image of class diagram"/>
 
 ## run and DataProcessing:
 - run imports and uses the process_article function from DataProcessing.
