@@ -10,10 +10,10 @@
         - [module_2/file_operations.py](#module_2file_operationspy)
     - [SOLID Principle](#solid-principle)
     - [Class Diagram](#class-diagram)
-        -[Main and DataProcessing](#Main-and-DataProcssing)
-        -[Main and FileOperations](#Main-and-File-Operations)
-        -[DataProcessing and FileOperations](#DataProcessing-and-FileOperations)
-        -[In Summary](#In-Summary) 
+        - [Main and DataProcessing](#Main-and-DataProcssing)
+        - [Main and FileOperations](#Main-and-File-Operations)
+        - [DataProcessing and FileOperations](#DataProcessing-and-FileOperations)
+        - [In Summary](#In-Summary) 
     - [Usage](#usage)
 
 ## Project Description
