@@ -20,6 +20,7 @@ Welcome to Project 2! This project does breaks down project-1 code into logicall
 ## Folder Structure
 
 This project is organized with the following folder structure:
+<img src="images/Screenshot%202024-03-01%20142824.png" alt="image of folder structure"/>
 
 
 ## Modules
