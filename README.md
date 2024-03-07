@@ -105,9 +105,9 @@ This project adheres to the Single Responsibility Principle (SOLID).
 
 ## Usage
 - make sure to use the requirement.yaml provided to create a new environment
-- 'conda env create -f requirement.yaml'
-- activate new environment with `conda activate new_env_name'
-- 'python run.py' to run the program. This is a little different from last time since I had to switch over to Beautiful Soup for this project. It was previously coded with scrapy in mind
+- `conda env create -f requirement.yaml`
+- activate new environment with `conda activate new_env_name`
+- `python run.py` to run the program. This is a little different from last time since I had to switch over to Beautiful Soup for this project. It was previously coded with scrapy in mind
 ...
 
 
