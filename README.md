@@ -88,7 +88,7 @@ This project adheres to the Single Responsibility Principle (SOLID).
 
 ### run and DataProcessing:
 
-- `run` imports and uses the `process_article` function from `DataProcessing`.
+- `run` also imports and uses the `get_raw_html_content` and `process_article_from_file` functions from `DataProcessing`.
 - **Relationship:** Association
 
 ### run and FileOperations:
@@ -96,14 +96,16 @@ This project adheres to the Single Responsibility Principle (SOLID).
 - `run` imports and uses the `save_to_file` and `create_directory` functions from `FileOperations`.
 - **Relationship:** Association
 
-### DataProcessing and FileOperations:
+ ### DataProcessing and FileOperations:
 
-- There is no direct interaction between `DataProcessing` and `FileOperations`. They operate independently, and their functionalities do not directly depend on each other.
+- There is no direct interaction between `DataProcessing` and `FileOperations`. However, `DataProcessing` is indirectly dependent on `FileOperations` when saving processed articles to files.
+- **Relationship:** Dependency
 
 ### In Summary:
 
 - `run` has an association relationship with both `DataProcessing` and `FileOperations`.
-- There is no direct relationship between `DataProcessing` and `FileOperations`.
+- There is no direct relationship between `DataProcessing` and `FileOperations`, but they have an indirect dependency.
+
 
 ## Usage
 
