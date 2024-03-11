@@ -1,4 +1,4 @@
-# Project-2: Data Processing and File Operations
+# Project-2:  Refactor and Enhance Functionality
 
 ## Table of Contents
 
