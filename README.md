@@ -58,7 +58,8 @@ The project adheres to the following folder structure:
 This module processes raw article data from a given URL.
 
 - **Functions/Classes:**
-  - `process_article(url: str) -> Tuple[str, str]`: Processes the article and returns the headline and body.
+  - `process_article_from_file(file_path: str) -> Tuple[str, str]`: Processes the article from a file and returns the headline and body.
+  - `get_raw_html_content(url: str) -> str`: Retrieves raw HTML content from a given URL.
 
 ...
 
