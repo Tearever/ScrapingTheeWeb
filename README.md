@@ -10,10 +10,10 @@
         - [module_2/file_operations.py](#module_2file_operationspy)
     - [SOLID Principle](#solid-principle)
     - [Class Diagram](#class-diagram)
-        - [run and DataProcessing](#run-and-DataProcessing)
-        - [run and FileOperations](#run-and-FileOperations)
-        - [DataProcessing and FileOperations](#DataProcessing-and-FileOperations)
-        - [In Summary](#In-Summary) 
+        - [run and DataProcessing](#run-and-dataprocessing)
+        - [run and FileOperations](#run-and-fileoperations)
+        - [DataProcessing and FileOperations](#dataprocessing-and-fileoperations)
+        - [In Summary](#in-summary) 
     - [Usage](#usage)
 
 ## Project Description
@@ -49,10 +49,7 @@ Project-2 aims to refactor and enhance the functionality of Project-1 by breakin
 
 The project adheres to the following folder structure:
 
-
-<img src="images/Screenshot%202024-03-01%20142824.png" alt="image of folder structure"/>
-
-
+![Folder Structure](images/Screenshot%202024-03-01%20142824.png)
 
 ## Modules
 
@@ -86,32 +83,31 @@ This project adheres to the Single Responsibility Principle (SOLID).
   - Enhances maintainability by ensuring that each module has only one reason to change.
 
 ## Class Diagram
-<img src="images/class_diagram.png" alt="image of class diagram"/>
+![Class Diagram](images/class_diagram.png)
 
-## run and DataProcessing:
-- run imports and uses the process_article function from DataProcessing.
-- Relationship: Association
+### run and DataProcessing:
 
-## run and FileOperations:
-- run imports and uses the save_to_file and create_directory functions from FileOperations.
-- Relationship: Association
+- `run` imports and uses the `process_article` function from `DataProcessing`.
+- **Relationship:** Association
 
- ## DataProcessing and FileOperations:
-- There is no direct interaction between DataProcessing and FileOperations. They operate independently, and their functionalities do not directly depend on each other.
+### run and FileOperations:
 
-## In Summary:
-- run has an association relationship with both DataProcessing and FileOperations.
-- There is no direct relationship between DataProcessing and FileOperations.
+- `run` imports and uses the `save_to_file` and `create_directory` functions from `FileOperations`.
+- **Relationship:** Association
+
+### DataProcessing and FileOperations:
+
+- There is no direct interaction between `DataProcessing` and `FileOperations`. They operate independently, and their functionalities do not directly depend on each other.
+
+### In Summary:
+
+- `run` has an association relationship with both `DataProcessing` and `FileOperations`.
+- There is no direct relationship between `DataProcessing` and `FileOperations`.
 
 ## Usage
-- make sure to use the requirement.yaml provided to create a new environment
-- `conda env create -f requirement.yaml`
-- activate new environment with `conda activate new_env_name`
-- `python run.py` to run the program. This is a little different from last time since I had to switch over to Beautiful Soup for this project. It was previously coded with scrapy.
 
-...
-
-
-
-
-
+- Make sure to use the `requirement.yaml` provided to create a new environment:
+  ```bash
+  conda env create -f requirement.yaml
+  conda activate new_env_name
+  python run.py
