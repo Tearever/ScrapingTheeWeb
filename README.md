@@ -49,7 +49,7 @@ Project-2 aims to refactor and enhance the functionality of Project-1 by breakin
 
 The project adheres to the following folder structure:
 
-![Folder Structure](images/Screenshot%202024-03-11%20201324.png)
+![Folder Structure](images/Screenshot%202024-03-01%20142824.png)
 
 ## Modules
 
