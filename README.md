@@ -99,7 +99,7 @@ This project adheres to the Single Responsibility Principle (SOLID).
  ### DataProcessing and FileOperations:
 
 - There is no direct interaction between `DataProcessing` and `FileOperations`. However, `DataProcessing` is indirectly dependent on `FileOperations` when saving processed articles to files.
-- **Relationship:** Dependency
+- **Relationship:** Association
 
 ### In Summary:
 
