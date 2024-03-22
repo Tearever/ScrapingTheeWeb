@@ -49,7 +49,9 @@ For any queries regarding the project, please reach out either before or after c
 3. **Generate API Key**:
    - After registration, you should be presented with the documentation page
   <img src="images/documentation_page.png" alt="image showing documentation page"/>
-   - Click on "Generate New Key" and follow the prompts.
+   - Click on "API Keys" to begin the first process of generation of an API Key.
+  <img src="images/API_KEYS.png" alt="image showing API Key tab"/>
+     
 
 4. **Using the API Key**:
    - Once generated, the API Key will be provided. Use this key in your program to authenticate API requests.
