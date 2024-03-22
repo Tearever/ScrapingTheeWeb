@@ -52,6 +52,8 @@ For any queries regarding the project, please reach out either before or after c
    - Click on "API Keys" to begin the first process of generation of an API Key.
   <img src="images/API_KEYS.png" alt="image showing API Key tab"/>
      
+https://github.com/Tearever/ScrapingTheeWeb/assets/146034304/dd21b89d-02b1-44a0-9249-056c726b9e1e
+
 
 4. **Using the API Key**:
    - Once generated, the API Key will be provided. Use this key in your program to authenticate API requests.
