@@ -56,9 +56,8 @@ https://github.com/Tearever/ScrapingTheeWeb/assets/146034304/f2fc4c5a-baa7-4d6e-
 
 4. **Using the API Key**:
    - Once generated, the API Key will be provided. Use this key in your program to authenticate API requests.
+   - When developing this program, I used an environment variable to store the API Key, but this is not required for your testing.
+   - You are welcome to try this, but I left ```#api_key = ""```, if you want to quickly test it. 
 
-5. **Making API Calls**:
-   - Utilize the generated API Key in the header of your API requests.
-   - Refer to the API documentation for specifics on constructing requests and handling responses.
 
 ---
