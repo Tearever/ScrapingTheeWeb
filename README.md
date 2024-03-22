@@ -53,6 +53,7 @@ For any queries regarding the project, please reach out either before or after c
 
 https://github.com/Tearever/ScrapingTheeWeb/assets/146034304/f2fc4c5a-baa7-4d6e-8064-9a7a0ee993bf
 
+---
 
 4. **Using the API Key**:
    - Once generated, the API Key will be provided. Use this key in your program to authenticate API requests.
@@ -61,6 +62,7 @@ https://github.com/Tearever/ScrapingTheeWeb/assets/146034304/f2fc4c5a-baa7-4d6e-
    - just comment out ```api_key = os.environ.get("OPENAI_API_KEY")``` and place your key within the ```api_key = "key"```
 
   https://github.com/Tearever/ScrapingTheeWeb/assets/146034304/f7c0ab85-49f9-4099-902a-93b142556940
+---
   
 5. **Run the Program**:
     - To create a new environment from an yaml file:
@@ -69,10 +71,4 @@ https://github.com/Tearever/ScrapingTheeWeb/assets/146034304/f2fc4c5a-baa7-4d6e-
     - ```conda env create -f requirement.yaml```
     - (This is of course assuming that you already have Miniconda installed on the system)
   
-
-
-
-
-
-
 ---
