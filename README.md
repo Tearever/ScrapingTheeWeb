@@ -71,5 +71,6 @@ https://github.com/Tearever/ScrapingTheeWeb/assets/146034304/f7c0ab85-49f9-4099-
     - or
     - ```conda env create -f requirement.yaml```
     - (This is of course assuming that you already have Miniconda installed on the system)
+    - To run the program ```python run.py```
   
 ---
