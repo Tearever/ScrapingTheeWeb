@@ -59,8 +59,17 @@ https://github.com/Tearever/ScrapingTheeWeb/assets/146034304/f2fc4c5a-baa7-4d6e-
    - When developing this program, I used an environment variable to store the API Key, but this is not required for your testing.
    - You are welcome to try this, but I left ```#api_key = ""```, if you want to quickly test it.
    - just comment out ```api_key = os.environ.get("OPENAI_API_KEY")``` and place your key within the ```api_key = "key"```
+
+  https://github.com/Tearever/ScrapingTheeWeb/assets/146034304/f7c0ab85-49f9-4099-902a-93b142556940
   
-https://github.com/Tearever/ScrapingTheeWeb/assets/146034304/f7c0ab85-49f9-4099-902a-93b142556940
+5. **Run the Program
+    - To create a new environment from an yaml file:
+    - ```conda create --name some_name --file requirement.yaml```
+    - or
+    - ```conda env create -f requirement.yaml```
+    - (This is of course assuming that you already have Miniconda installed on the system)
+  
+
 
 
 
