@@ -47,7 +47,8 @@ For any queries regarding the project, please reach out either before or after c
    - Follow the activation steps sent to your registered email address.
 
 3. **Generate API Key**:
-   - After registration you should be presented with the Documnetation page
+   - After registration, you should be presented with the documentation page
+  <img src="images/documentation_page.png" alt="image showing documentation page"/>
    - Click on "Generate New Key" and follow the prompts.
 
 4. **Using the API Key**:
