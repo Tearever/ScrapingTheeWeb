@@ -59,6 +59,7 @@ https://github.com/Tearever/ScrapingTheeWeb/assets/146034304/f2fc4c5a-baa7-4d6e-
    - When developing this program, I used an environment variable to store the API Key, but this is not required for your testing.
    - You are welcome to try this, but I left ```#api_key = ""```, if you want to quickly test it.
    - just comment out ```api_key = os.environ.get("OPENAI_API_KEY")``` and place your key within the ```api_key = "key"```
+  
 https://github.com/Tearever/ScrapingTheeWeb/assets/146034304/911d8677-1ecb-4980-a7a3-8a60beedbc5b
 
 
