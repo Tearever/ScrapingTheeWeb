@@ -62,7 +62,7 @@ https://github.com/Tearever/ScrapingTheeWeb/assets/146034304/f2fc4c5a-baa7-4d6e-
 
   https://github.com/Tearever/ScrapingTheeWeb/assets/146034304/f7c0ab85-49f9-4099-902a-93b142556940
   
-5. **Run the Program:
+5. **Run the Program**:
     - To create a new environment from an yaml file:
     - ```conda create --name some_name --file requirement.yaml```
     - or
