@@ -1,0 +1,5 @@
+Headline:
+      Russian hackers breached key Microsoft systems
+    
+ Summary: 
+	Russian state-backed hackers breached key Microsoft systems, gaining access to source code repositories and internal systems. Experts suspect the hackers, linked to Russian foreign intelligence, may be using the stolen information for future attacks. Microsoft assures no customer-facing systems were compromised. This is part of a wider espionage campaign by the hackers.

@@ -1,0 +1,29 @@
+Headline:
+      Russian hackers breached key Microsoft systems
+    
+
+            Russian state-backed hackers gained access to some of Microsoft’s core software systems in a hack first disclosed in January, the company said Friday, revealing a more extensive and serious intrusion into Microsoft’s systems than previously known.
+    
+
+            Microsoft believes that the hackers have in recent weeks used information stolen from Microsoft’s corporate email systems to access “some of the company’s source code repositories and internal systems,” the tech firm said in a filing with the US Securities and Exchange Commission.
+    
+
+            Source code is coveted by corporations — and spies trying to breach them — because it is the secret nuts and bolts of a software program that make it function.Hackers with access to source code can use it for follow-on attacks on other systems.
+    
+
+            Microsoft first revealed the breach in January, days before another Big Tech company, Hewlett Packard Enterprise, said the same hackers had breached its cloud-based email systems. The full extent and exact purpose of the hacking activity isn’t clear, but experts say the group responsible has a history of wide-ranging intelligence gathering campaigns in support of the Kremlin.
+    
+
+            The hacking group was behind the infamous breach of several US agency email systems using software made by US contractor SolarWinds, which was revealed in 2020. The hackers had access for months to the unclassified email accounts at the departments of Homeland Security and Justice, among other agencies, before the spying operation was discovered.
+    
+
+            US officials have attributed the hacking group to Russia’s foreign intelligence service. Russia denied involvement in the operation.
+    
+
+            In the years since the 2020 hack, the Russian hackers have continued to break into widely used tech firms as part of their espionage campaigns, according to US officials and private experts. In the activity described Friday, the hackers may be using the information it stole from Microsoft “to accumulate a picture of areas to attack and enhance its ability to do so,” the company said in a blog post that accompanied the SEC filing.
+    
+
+            “To date we have found no evidence that Microsoft-hosted customer-facing systems have been compromised,” Microsoft said.
+    
+
+This is a developing story. It will be updated.

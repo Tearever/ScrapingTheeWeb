@@ -1,0 +1,5 @@
+Headline:
+      OpenAI publishes Elon Musk’s emails. ‘We’re sad that it’s come to this’
+    
+ Summary: 
+	OpenAI published Elon Musk's emails revealing his lack of financial commitment to the non-profit company. Musk suggested OpenAI needed a for-profit model to succeed, which led to the formation of OpenAI LP. Musk sued for breach of contract, claiming OpenAI violated its founding charter. OpenAI defended its mission and technology.
