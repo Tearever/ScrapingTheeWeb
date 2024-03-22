@@ -51,6 +51,8 @@ For any queries regarding the project, please reach out either before or after c
    - Click on "API Keys" to begin the first process of generation of an API Key.
    - CLick on the ```+ Create new secret key``` and name it. Make sure to copy it because we will be using it later
 
+https://github.com/Tearever/ScrapingTheeWeb/assets/146034304/f2fc4c5a-baa7-4d6e-8064-9a7a0ee993bf
+
 
 4. **Using the API Key**:
    - Once generated, the API Key will be provided. Use this key in your program to authenticate API requests.
