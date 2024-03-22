@@ -48,11 +48,8 @@ For any queries regarding the project, please reach out either before or after c
 
 3. **Generate API Key**:
    - After registration, you should be presented with the documentation page
-  <img src="images/documentation_page.png" alt="image showing documentation page"/>
    - Click on "API Keys" to begin the first process of generation of an API Key.
-  <img src="images/API_KEYS.png" alt="image showing API Key tab"/>
-     
-https://github.com/Tearever/ScrapingTheeWeb/assets/146034304/dd21b89d-02b1-44a0-9249-056c726b9e1e
+   - CLick on the ```+ Create new secret key``` and name it. Make sure to copy it because we will be using it later
 
 
 4. **Using the API Key**:
