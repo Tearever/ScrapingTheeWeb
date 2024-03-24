@@ -73,8 +73,8 @@ https://github.com/Tearever/ScrapingTheeWeb/assets/146034304/f7c0ab85-49f9-4099-
     - (This is of course assuming that you already have Miniconda installed on the system)
     - To run the program ```python run.py```
   
-6. **If openAI is outdated (Automatic Migration for Windows)**:
-    - To use grit to migrate your code on Windows, you will need to use Windows Subsystem for Linux (WSL). Installing WSL is quick and easy, and you do not need to keep using Linux once the command is done.
-      1. Here's a step-by-step guide for setting up and using WSL for this purpose:
+**If openAI is outdated (Automatic Migration for Windows)**:
+To use grit to migrate your code on Windows, you will need to use Windows Subsystem for Linux (WSL). Installing WSL is quick and easy, and you do not need to keep using Linux once the command is done.
+1. Here's a step-by-step guide for setting up and using WSL for this purpose:
   
 ---
