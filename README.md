@@ -91,6 +91,6 @@ grit apply openai
 ```
 Then, you can close WSL and go back to using Windows.
 
-credit to rattrayalex for this solution. Make sure to show some love at https://github.com/openai/openai-python/discussions/742.
+credit to rattrayalex and his participants for this solution. Make sure to show some love for them over at https://github.com/openai/openai-python/discussions/742.
   
 ---
