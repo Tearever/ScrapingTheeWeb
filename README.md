@@ -6,6 +6,7 @@
 - [Rubric](#Rubric)
 - [Updated Folder Structure](#Updated_Folder_Structure)
 - [Setting up LLM API Account and Key Generation](#Setting_up_LLM_API_Account_and_Key_Generation)
+- [Using the API Key](#Using_the_API_Key)
 
 ## Due Date: 04/01 [No Extension]
 ## Points: 150
