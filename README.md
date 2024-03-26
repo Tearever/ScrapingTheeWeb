@@ -37,6 +37,10 @@ For any queries regarding the project, please reach out either before or after c
 
 ---
 
+### Folder Structure
+
+---
+
 ### Setting up LLM API Account and Key Generation:
 
 1. **Registration**:
