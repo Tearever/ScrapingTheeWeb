@@ -37,7 +37,7 @@ For any queries regarding the project, please reach out either before or after c
 
 ---
 
-### Folder Structure
+## New Folder Structure
 
 ---
 
