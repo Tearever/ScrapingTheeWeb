@@ -1,5 +1,12 @@
 # CS325 Project 3
 
+## Table of Contents
+
+- [Project Description](#Project_Description)
+- [Rubric](#Rubric)
+- [Updated Folder Structure](#Updated_Folder_Structure)
+- [Setting up LLM API Account and Key Generation](#Setting_up_LLM_API_Account_and_Key_Generation)
+
 ## Due Date: 04/01 [No Extension]
 ## Points: 150
 
