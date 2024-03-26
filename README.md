@@ -7,6 +7,8 @@
 - [Updated Folder Structure](#Updated-Folder-Structure)
 - [Setting up LLM API Account and Key Generation](#Setting-up-LLM-API-Account-and-Key-Generation)
 - [Using the API Key](#Using-the-API-Key)
+- [Run the Program](#Run-the-Program)
+- [If openAI is outdated (Automatic Migration for Windows)](#If-openAI-is-outdated-(Automatic-Migration-for-Windows)
 
 ## Due Date: 04/01 [No Extension]
 ## Points: 150
@@ -79,7 +81,7 @@ https://github.com/Tearever/ScrapingTheeWeb/assets/146034304/f7c0ab85-49f9-4099-
 
 ---
   
-5. **Run the Program**:
+## Run the Program:
     - To create a new environment from an yaml file:
     - ```conda create --name some_name --file requirement.yaml```
     - or
@@ -89,7 +91,7 @@ https://github.com/Tearever/ScrapingTheeWeb/assets/146034304/f7c0ab85-49f9-4099-
   
 ---
   
-**If openAI is outdated (Automatic Migration for Windows)**
+### If openAI is outdated (Automatic Migration for Windows)
 
 To use grit to migrate your code on Windows, you will need to use Windows Subsystem for Linux (WSL). Installing WSL is quick and easy, and you do not need to keep using Linux once the command is done.
 
