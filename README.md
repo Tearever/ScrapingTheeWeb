@@ -82,7 +82,7 @@ https://github.com/Tearever/ScrapingTheeWeb/assets/146034304/f7c0ab85-49f9-4099-
 ---
   
 ## Run the Program:
-    conda env create -f requirement.yaml
+    conda env create --file requirement.yaml --name new_env_name
     conda activate new_env_name
     python run.py
   
