@@ -81,7 +81,7 @@ https://github.com/Tearever/ScrapingTheeWeb/assets/146034304/f7c0ab85-49f9-4099-
 
 ---
   
-## Run the Program:
+## **Run the Program**:
     - To create a new environment from an yaml file:
     - ```conda create --name some_name --file requirement.yaml```
     - or
