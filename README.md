@@ -37,7 +37,7 @@ For any queries regarding the project, please reach out either before or after c
 
 ---
 
-## New Folder Structure
+## Updated Folder Structure
 
 <img src="images/CS325_new_structure.png">
 
