@@ -2,7 +2,7 @@
 
 ## Table of Contents
 
-- [Project Description](#Project_Description)
+- [Project Description](#Project Description)
 - [Rubric](#Rubric)
 - [Updated Folder Structure](#Updated_Folder_Structure)
 - [Setting up LLM API Account and Key Generation](#Setting_up_LLM_API_Account_and_Key_Generation)
