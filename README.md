@@ -8,7 +8,7 @@
 - [Setting up LLM API Account and Key Generation](#Setting-up-LLM-API-Account-and-Key-Generation)
 - [Using the API Key](#Using-the-API-Key)
 - [Run the Program](#Run-the-Program)
-- [If openAI is outdated (Automatic Migration for Windows)](#If-openAI-is-outdated-(Automatic-Migration-for-Windows)
+- [If openAI is outdated (Automatic Migration for Windows)](#If-openAI-is-outdated-(Automatic-Migration-for-Windows))
 
 ## Due Date: 04/01 [No Extension]
 ## Points: 150
