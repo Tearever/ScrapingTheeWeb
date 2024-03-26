@@ -82,12 +82,9 @@ https://github.com/Tearever/ScrapingTheeWeb/assets/146034304/f7c0ab85-49f9-4099-
 ---
   
 ## Run the Program:
-    - To create a new environment from an yaml file:
-    - conda create --name some_name --file requirement.yaml```
-    - or
-    - ```conda env create -f requirement.yaml```
-    - (This is of course assuming that you already have Miniconda installed on the system)
-    - To run the program ```python run.py```
+    conda env create -f requirement.yaml
+    conda activate new_env_name
+    python run.py
   
 ---
   
