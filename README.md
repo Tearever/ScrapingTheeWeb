@@ -2,7 +2,7 @@
 
 ## Table of Contents
 
-- [Project Description](#Project Description)
+- [Project Description](#Project_Description)
 - [Rubric](#Rubric)
 - [Updated Folder Structure](#Updated_Folder_Structure)
 - [Setting up LLM API Account and Key Generation](#Setting_up_LLM_API_Account_and_Key_Generation)
@@ -68,7 +68,7 @@ https://github.com/Tearever/ScrapingTheeWeb/assets/146034304/f2fc4c5a-baa7-4d6e-
 
 ---
 
-4. **Using the API Key**:
+### Using the API Key:
    - Once generated, the API Key will be provided. Use this key in your program to authenticate API requests.
    - When developing this program, I used an environment variable to store the API Key, but this is not required for your testing.
    - You are welcome to try this, but I left ```#api_key = ""```, if you want to quickly test it.
